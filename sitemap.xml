@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://adityastech.github.io/about/</loc>
+    <lastmod>2025-04-07T19:44:34+05:30</lastmod>
+  </url><url>
+    <loc>https://adityastech.github.io/</loc>
+    <lastmod>2025-04-07T19:44:34+05:30</lastmod>
+  </url><url>
+    <loc>https://adityastech.github.io/posts/</loc>
     <lastmod>2025-04-06T22:26:11+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://adityastech.github.io/posts/mypost/</loc>
     <lastmod>2025-04-06T22:26:11+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mypost/</loc>
-    <lastmod>2025-04-06T22:26:11+05:30</lastmod>
+    <loc>https://adityastech.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://adityastech.github.io/tags/</loc>
   </url>
 </urlset>
