@@ -124,8 +124,10 @@ const cPals=[
   [{d:'#e5004a',l:'#e5004a'},{d:'#992fff',l:'#992fff'},{d:'#ff6600',l:'#ff6600'},{d:'#00bfff',l:'#00bfff'}],
   [{d:'#992fff',l:'#992fff'},{d:'#ff3399',l:'#ff3399'},{d:'#00e5a0',l:'#00e5a0'},{d:'#d9bf00',l:'#d9bf00'}],
   [{d:'#d9bf00',l:'#d9bf00'},{d:'#00e5a0',l:'#00e5a0'},{d:'#ff3399',l:'#ff3399'},{d:'#4560ff',l:'#4560ff'}],
+  [{d:'#0c98cb',l:'#e5004a'},{d:'#992fff',l:'#992fff'},{d:'#ff6600',l:'#ff6600'},{d:'#00bfff',l:'#00bfff'}],
+
 ];
-const cBgs=[['#05100a','#091a10'],['#10050c','#1a0910'],['#070512','#10091a'],['#0c0a04','#18150a']];
+const cBgs=[['#05100a','#091a10'],['#10050c','#1a0910'],['#070512','#10091a'],['#0c0a04','#18150a'],['#070512','#10091a']];
 
 function lerpHex(a,b,t){
   const pa=parseInt(a.slice(1),16),pb=parseInt(b.slice(1),16);
@@ -133,7 +135,7 @@ function lerpHex(a,b,t){
   return'#'+[ar+(br-ar)*t,ag+(bg-ag)*t,ab+(bb-ab)*t].map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
 }
 
-['pc1','pc2','pc3','pc4'].forEach((id,idx)=>{
+['pc1','pc2','pc3','pc4', 'pc5'].forEach((id,idx)=>{
   const c=document.getElementById(id);if(!c)return;
   const ctx=c.getContext('2d');
   function rsz(){c.width=c.offsetWidth||700;c.height=c.offsetHeight||280;}
